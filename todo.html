@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+</head>
+<link rel="stylesheet" href="todo.css">
+
+<body>
+    <main id="main">
+
+        <!-- main container          -->
+        <div id="container">
+
+
+            <div id="addtitle">
+                <p> ADD TASK </p>
+            </div>
+
+            <hr style="width: 700px; height: 3px; background-color: black;">
+
+            <div>
+
+                <!-- input textarea and add button                  -->
+
+                <p id="inputarea">
+
+                    <span id="add-button">Add Task</span>
+
+                    <input type="text" id="it1">
+
+                </p>
+
+            </div>
+
+            <br>
+
+            <!-- to-do list starts -->
+
+            <div id="todolistcontainer">
+
+                <div id="todotitle">
+                    <p> TODO </p>
+                </div>
+
+                <hr style="width: 700px; height: 3px; background-color: black;">
+
+                <div class="todolistitems">
+
+                    <!-- list items -->
+
+                    <span class="listitems">
+
+
+                        <p id="todo-text"></p>
+
+
+
+                        <button id="button-for-edit"></button>
+
+
+
+                        <button id="button-for-delete"></button>
+
+
+                    </span>
+
+
+
+                </div>
+
+            </div>
+
+
+            <br>
+
+            <div id="completetasktitle">
+                <p> COMPLETED TASK </p>
+            </div>
+
+            <hr style="width: 700px; height: 3px; background-color: black;">
+
+            
+
+            <!-- complete task division starts  -->
+
+            <div class="completetaskdiv">
+
+                <ul id="complete-text"> </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

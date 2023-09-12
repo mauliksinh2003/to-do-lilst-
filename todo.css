@@ -1,0 +1,128 @@
+#main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* width: 100%; */
+    /* background-color:rgb(224, 224, 224); */
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+#container{
+    justify-content: center;
+    margin: 100px;
+    margin-left: 180px;
+    padding: 30px;
+    background-color: silver ;
+    width: 1000px;
+    /* height: 380px; */
+
+}
+
+#addtitle{
+    text-align: center;
+}
+
+#todotitle{
+    text-align: center;
+}
+
+#completetasktitle{
+    text-align: center;
+
+}
+
+#inputarea{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+#todolistarea{
+    text-align: center;
+    margin: auto;
+}
+
+.listitems{
+    display: flex;
+    width: 700px ;
+}
+
+.todolistitems{
+    
+    /* width: 700px; */
+    
+    margin-left: 130px;
+    padding: 10px;
+}
+
+
+
+#checkbox{
+    background-color: transparent;
+    
+    border: none;
+}
+
+#checkbox :checked + #todo-text {
+    text-decoration: line-through;
+}
+
+#todo-text{
+    
+    margin-left: 12px ;
+    font-size: large;
+    /* padding: 5px; */
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: blue;
+}
+
+#button-for-edit ,
+#button-for-delete{
+    background-color: transparent;
+    border: transparent;
+    padding: 15px ;
+    margin: 2px;
+    
+}
+
+
+#add-button{
+    margin: 0px 100px 0px 20px;
+}
+
+#it1{
+    text-align: left;
+    width: 470px;
+    height: 30px;
+}
+
+.completetaskitems{
+    justify-content: center;
+}
+
+#complete-text{
+    text-decoration: line-through;
+    margin-left: 100px ;
+    font-size: large;
+    /* padding: 5px; */
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.completetaskdiv{
+    justify-content: center;
+}
+
+#checkbox :checked {
+    text-decoration: line-through;
+}
